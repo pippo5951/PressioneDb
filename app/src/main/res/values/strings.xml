@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Archivio Pressione</string>
+    <string name="hello">Per cancellare un record clicca su di esso</string>
+    <string name="infoTitolo1">Pressione arteriosa: Cos\'è come si misura e quando</string>
+    <string name="infoTitolo2">Conoscere la pressione arteriosa: La massima, la minima e la differenziale.</string>
+    <string name="infoTitolo3">Come si misura la pressione arteriosa</string>
+
+    <string name="info1">La pressione sanguigna è la forza con cui il sangue viene spinto dalla pompa cardiaca nei vasi; prende il nome di pressione arteriosa (PA) se si tratta di arterie, o di pressione venosa se si tratta di vene. Più è alta la pressione e maggiore è il lavoro (e la fatica) che deve compiere il cuore.</string>
+    <string name="info2">La pressione arteriosa (PA) dipende da due fattori:
+		Gittata cardiaca, ovvero il volume di sangue che il ventricolo sinistro spinge in aorta in un certo tempo
+		Resistenza, ovvero la resistenza al flusso data dai vasi.
+Poiché l’immissione del sangue nelle arterie avviene in maniera discontinua, la pressione arteriosa oscilla continuamente, dando valori diversi. Si parla dunque di:
+		Pressione arteriosa sistolica (PAS): comunemente chiamata “massima”, è un valore dato dal massimo flusso sanguigno espulso ad ogni contrazione del cuore nella fase di sistole. È dato dal volume di sangue e dalla forza con cui i ventricoli si contraggono e dall’elasticità delle arterie.
+		Pressione arteriosa diastolica (PAD): comunemente chiamata “minima”, è un valore dato dal periodo di riposo del cuore, ossia la diastole; è dato dalla durata della diastole e dalle resistenze periferiche.
+		Pressione arteriosa differenziale (o media): è un valore calcolato attraverso una formula che esprime la differenza tra PAS e PAD
+</string>
+    <string name="info3">Per misurare la pressione possiamo utilizzare:
+		Lo sfigmomanometro a mercurio (metodo non invasivo), ormai in disuso
+		Lo sfigmomanometro aneroide (metodo non invasivo)
+		Lo sfigmomanometro elettronico (metodo non invasivo)
+		Il catetere arterioso inserito in arteria collegato ad un trasduttore, a sua volta collegato ad un monitor (metodo invasivo)
+Secondo l’OMS, la misurazione ottimale deve essere effettuata:
+		In condizioni di tranquillità, il paziente deve essere rilassato e comodo
+		La persona non deve aver fumato o bevuto da almeno un quarto d’ora
+		Non deve aver bevuto caffè nell’ora precedente
+		Il braccio deve essere appoggiato e non rimanere sospeso
+		Il bracciale deve essere di dimensione adeguata al braccio del paziente. Un bracciale da adulto non può essere utilizzato su un bambino e viceversa; allo stesso modo su una persona obesa non può essere utilizzato un bracciale standard. Un’inadeguata misura del bracciale comporta rilevazioni errate (sovrastima o sottostima).
+La misurazione della pressione arteriosa avviene posizionando un manicotto (o bracciale) al braccio del paziente, poco al di sopra della piega in corrispondenza del gomito. Di norma sui manicotti è disegnata una freccia: quest’ultima deve essere collocata sulla piega del braccio, dove posizioneremo poi il fonendoscopio.
+Il manicotto è a sua volta connesso ad una pompetta, che, se premuta, permette un passaggio di aria con conseguente gonfiaggio del bracciale. Sulla pompetta è presente una valvola che, una volta aperta, permette la fuoriuscita di aria e di conseguenza lo sgonfiaggio del bracciale.
+Il manicotto deve essere ben adeso al braccio: né troppo stretto né troppo largo, poiché questo potrebbe comportare una rilevazione errata. Posizionando il manicotto sul braccio si va a rilevare la PA a livello dell’arteria brachiale.
+Il primo rumore che sentiremo corrisponderà alla PAS (o massima) e sarà dato dalla ripresa del passaggio di sangue in arteria. Questo primo rumore prende il nome di 1° tono di Korotkoff.
+Continuando a sgonfiare il bracciale, si distinguono altri 4 rumori: il 2°, il 3°, il 4° e il 5° tono di Korotkoff. Il 5° coincide con la scomparsa di rumori e corrisponde alla PAD (o minima).
+Per misurare la pressione venosa differenziale, è necessario invece utilizzare la formula che segue: MAP = DP + PP/3
+Dove:
+		DP: pressione diastolica
+		PP: pressione di pulsazione (differenza tra PAS e PAD)
+Più comunemente, però, il valore viene dato automaticamente dal monitor a cui è connesso il paziente.</string>
+    <string name="info4">Per cancellare un record clicca su di esso</string>
+    <string name="title_activity_splash_sreen">Pressione arteriosa</string>
+</resources>

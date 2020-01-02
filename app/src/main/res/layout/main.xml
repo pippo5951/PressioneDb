@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/gradientrosa"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  <TextView
+    android:gravity="center"
+    android:textStyle="bold"
+    android:background="@color/slide2"
+    android:textColor="@color/bianco"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hello" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+      android:id="@+id/tv_nome"
+      android:layout_width="120dp"
+      android:layout_height="wrap_content"
+      android:hint="Nome"
+      android:inputType="text" />
+
+    <EditText
+      android:id="@+id/tv_max"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:hint="Sys"
+      android:inputType="text|number|numberDecimal" />
+
+    <EditText
+      android:id="@+id/tv_min"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:hint="Dia"
+      android:inputType="text|number|numberDecimal" />
+
+    <EditText
+      android:id="@+id/tv_pulsa"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:hint="Pul"
+      android:inputType="text|number|numberDecimal" />
+
+  </LinearLayout>
+
+  <LinearLayout
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <Button
+   android:layout_marginLeft="20dp"
+    android:id="@+id/add"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottoneadd" />
+
+    <Button
+android:layout_marginLeft="20dp"
+        android:id="@+id/deleteall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottonedel" />
+
+  </LinearLayout>
+
+  <ListView
+    android:id="@+id/contentlist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+</LinearLayout>
